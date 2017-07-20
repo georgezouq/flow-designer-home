@@ -44,10 +44,10 @@ const Navigation = () => {
         </NavigationItemList>
         <NavigationItemList>
           <NavigationItem>
-            <button className="primary" size="large">在线使用</button>
+            <a className="btn btn-primary" size="large">在线使用</a>
           </NavigationItem>
           <NavigationItem>
-            <button className="danger" size="large">下载企业版</button>
+            <a className="btn btn-danger" size="large">下载企业版</a>
           </NavigationItem>
         </NavigationItemList>
       </NavigationWrapper>
