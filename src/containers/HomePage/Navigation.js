@@ -33,21 +33,21 @@ const Navigation = () => {
             <Logo href="/">&nbsp;</Logo>
           </NavigationItem>
           <NavigationItem>
-            <button className="primary">Discuss</button>
+            {/*<button className="primary">Discuss</button>*/}
           </NavigationItem>
           <NavigationItem>
-            <button className="primary">Blog</button>
+            {/*<button className="primary">Blog</button>*/}
           </NavigationItem>
           <NavigationItem>
-            <button className="primary">Get in touch</button>
+            {/*<button className="primary">Get in touch</button>*/}
           </NavigationItem>
         </NavigationItemList>
         <NavigationItemList>
           <NavigationItem>
-            <button className="primary" size="large">Use it Online</button>
+            <button className="primary" size="large">在线使用</button>
           </NavigationItem>
           <NavigationItem>
-            <button className="danger" size="large">download</button>
+            <button className="danger" size="large">下载企业版</button>
           </NavigationItem>
         </NavigationItemList>
       </NavigationWrapper>

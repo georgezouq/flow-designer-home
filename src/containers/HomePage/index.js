@@ -66,9 +66,8 @@ export default class HomePage extends React.Component {
             <div className="section hero">
               <SectionBackground img={images.ScreenShotBg}/>
               <SectionContent>
-                <SectionContentHeader>A cross-platform design tool for the 21st century</SectionContentHeader>
-                <SectionContentTitle>Gravit Designer is a full featured free vector design app right at your
-                  fingertip.
+                <SectionContentHeader>21世纪 流程设计与组织变革专家</SectionContentHeader>
+                <SectionContentTitle>杰成合力 凝聚十余年组织变革与流程管理经验，针对超大型企业打造流程私有云，助力企业腾飞。
                 </SectionContentTitle>
                 <ScreenShotItem/>
               </SectionContent>
@@ -77,14 +76,14 @@ export default class HomePage extends React.Component {
             <div className="section design">
               <SectionBackground img={images.DesignerBg}/>
               <SectionContent>
-                <SectionContentHeader>One tool to rule them all</SectionContentHeader>
+                <SectionContentHeader>一个工具诊断流程运行每一面</SectionContentHeader>
                 <DesignerItemList>
-                  <DesignerItem img={images.DesignerP1} header="Screen Design"/>
-                  <DesignerItem img={images.DesignerP2} header="High Quality Icons"/>
-                  <DesignerItem img={images.DesignerP3} header="Presentations"/>
-                  <DesignerItem img={images.DesignerP4} header="Illustration"/>
-                  <DesignerItem img={images.DesignerP5} header="Print"/>
-                  <DesignerItem img={images.DesignerP6} header="Prototyping & Animation"/>
+                  <DesignerItem img={images.DesignerP1} header="专业流程设计器"/>
+                  <DesignerItem img={images.DesignerP2} header="精准审视优化"/>
+                  <DesignerItem img={images.DesignerP3} header="业务流全监控"/>
+                  <DesignerItem img={images.DesignerP4} header="产业领域模型"/>
+                  <DesignerItem img={images.DesignerP5} header="国际标准"/>
+                  <DesignerItem img={images.DesignerP6} header="掌握组织运转热度"/>
                 </DesignerItemList>
               </SectionContent>
               <Arrow href="#interface"/>
@@ -92,9 +91,8 @@ export default class HomePage extends React.Component {
             <div className="section interface">
               <SectionBackground img={images.InterfaceBg}/>
               <SectionContent>
-                <SectionContentHeader >A smart way to design</SectionContentHeader>
-                <SectionContentTitle>Enjoy a clean, intuitive interface that adjusts itself exactly the way you expect
-                  it.
+                <SectionContentHeader >用户体验是我们一贯的追求</SectionContentHeader>
+                <SectionContentTitle>享受一个简洁，直观的界面，按照期望调整流程每一面。
                 </SectionContentTitle>
                 <InterfaceItemList>
                   <InterfaceItem img={images.InterfaceP1}/>
@@ -109,40 +107,38 @@ export default class HomePage extends React.Component {
             <div className="section features">
               <SectionBackground img={images.FeatureBg}/>
               <SectionContent>
-                <SectionContentHeader>Powerful tools to unleash your creativity</SectionContentHeader>
+                <SectionContentHeader>强大的工具帮您了解流程运转的各个方面</SectionContentHeader>
                 <FeatureItemList>
-                  <FeatureItem img={images.FeatureP1} header="Precision">
-                    Unmatched precision in any unit (Pixels, MM, CM, etc.) from creation to
-                    exporting.
+                  <FeatureItem img={images.FeatureP1} header="精准">
+                    精确定位流程中存在的问题，提供行业解决方案
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP2} header="Structure">
-                    Powerful pages with masters, real layers and symbols to structure your
-                    content.
+                  <FeatureItem img={images.FeatureP2} header="架构">
+                    根据不同层级组织与流程架构，逐层下落，清晰展现关联流程和业务走向
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP3} header="Vector">
-                    Made for vector with non-destructive booleans, knife tool and path graphs.
+                  <FeatureItem img={images.FeatureP3} header="专业">
+                    流程管理, 组织变革, 业务监控, 审视优化 以及更多.
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP4} header="Layout">
-                    Powerful grids, anchors and auto-layouts made for pixel perfect screen designs.
+                  <FeatureItem img={images.FeatureP4} header="架构">
+                    根据不同层级组织与流程架构，逐层下落，清晰展现关联流程和业务走向
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP5} header="Style">
-                    Multiple fills/borders, effects and blending modes together with shared styles.
+                  <FeatureItem img={images.FeatureP5} header="国际化">
+                    支持中／英文，对国际化团队友好，快速入手对流程进行设计
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP6} header="Text">
-                    Handcrafted powerful text engine with text on path, web fonts, styles and much more.
+                  <FeatureItem img={images.FeatureP6} header="文档">
+                    我们提供全套的说明文档，帮助你和您的团队更快的上手开始设计
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP7} header="Export">
-                    Export high quality PDFs, SVGs and Images using slices and multiple assets.
+                  <FeatureItem img={images.FeatureP7} header="导出">
+                    平台支持流程导出图片，同时也提供定制化接口，将流程直接导入您的BPM等系统中。
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP8} header="Advanced">
-                    Presentations, animations, states, prototyping and more.
+                  <FeatureItem img={images.FeatureP8} header="易用">
+                    用户体验是我们一贯的最求，开发出最简介易用的产品，更好的服务用户
                   </FeatureItem>
                 </FeatureItemList>
               </SectionContent>
@@ -151,8 +147,8 @@ export default class HomePage extends React.Component {
             <div className="section download">
               <SectionBackground img={images.DownloadBg}/>
               <SectionContent>
-                <SectionContentHeader>Download</SectionContentHeader>
-                <SectionContentTitle>Enjoy a free powerful design tool on any platform</SectionContentTitle>
+                <SectionContentHeader>跨平台</SectionContentHeader>
+                <SectionContentTitle>在您喜欢的平台上设计／审视您的流程</SectionContentTitle>
                 <DownloadItemList>
                   <DownloadItem img={images.DownloadP1} header="Windows"/>
                   <DownloadItem img={images.DownloadP2} header="macOS"/>
