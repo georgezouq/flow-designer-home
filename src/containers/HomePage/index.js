@@ -66,8 +66,8 @@ export default class HomePage extends React.Component {
             <div className="section hero">
               <SectionBackground img={images.ScreenShotBg}/>
               <SectionContent>
-                <SectionContentHeader>21世纪 流程设计与组织变革专家</SectionContentHeader>
-                <SectionContentTitle>杰成合力 凝聚十余年组织变革与流程管理经验，针对超大型企业打造流程私有云，助力企业腾飞。
+                <SectionContentHeader>流程管理与组织变革专家</SectionContentHeader>
+                <SectionContentTitle>凝聚十余年的流程管理与组织变革经验，为中小型企业悉心打造的流程管理云平台
                 </SectionContentTitle>
                 <ScreenShotItem/>
               </SectionContent>
@@ -76,14 +76,14 @@ export default class HomePage extends React.Component {
             <div className="section design">
               <SectionBackground img={images.DesignerBg}/>
               <SectionContent>
-                <SectionContentHeader>一个工具诊断流程运行每一面</SectionContentHeader>
+                <SectionContentHeader>专注于流程设计工作的每一面</SectionContentHeader>
                 <DesignerItemList>
-                  <DesignerItem img={images.DesignerP1} header="专业流程设计器"/>
-                  <DesignerItem img={images.DesignerP2} header="精准审视优化"/>
-                  <DesignerItem img={images.DesignerP3} header="业务流全监控"/>
-                  <DesignerItem img={images.DesignerP4} header="产业领域模型"/>
-                  <DesignerItem img={images.DesignerP5} header="国际标准"/>
-                  <DesignerItem img={images.DesignerP6} header="掌握组织运转热度"/>
+                  <DesignerItem img={images.DesignerP1} header="快速启动"/>
+                  <DesignerItem img={images.DesignerP4} header="精准设计"/>
+                  <DesignerItem img={images.DesignerP5} header="内置模板"/>
+                  <DesignerItem img={images.DesignerP3} header="状态监控"/>
+                  <DesignerItem img={images.DesignerP2} header="专业指导"/>
+                  <DesignerItem img={images.DesignerP6} header="实时通知"/>
                 </DesignerItemList>
               </SectionContent>
               <Arrow href="#interface"/>
@@ -91,8 +91,8 @@ export default class HomePage extends React.Component {
             <div className="section interface">
               <SectionBackground img={images.InterfaceBg}/>
               <SectionContent>
-                <SectionContentHeader >用户体验是我们一贯的追求</SectionContentHeader>
-                <SectionContentTitle>享受一个简洁，直观的界面，按照期望调整流程每一面。
+                <SectionContentHeader>追求为用户带来更好的设计体验</SectionContentHeader>
+                <SectionContentTitle>提供一个简洁，直观的设计界面
                 </SectionContentTitle>
                 <InterfaceItemList>
                   <InterfaceItem img={images.InterfaceP1}/>
@@ -107,38 +107,38 @@ export default class HomePage extends React.Component {
             <div className="section features">
               <SectionBackground img={images.FeatureBg}/>
               <SectionContent>
-                <SectionContentHeader>强大的工具帮您了解流程运转的各个方面</SectionContentHeader>
+                <SectionContentHeader>强大的特性帮您解决流程建设过程中的"绊脚石"</SectionContentHeader>
                 <FeatureItemList>
                   <FeatureItem img={images.FeatureP1} header="精准">
-                    精确定位流程中存在的问题，提供行业解决方案
-                  </FeatureItem>
-
-                  <FeatureItem img={images.FeatureP2} header="架构">
-                    根据不同层级组织与流程架构，逐层下落，清晰展现关联流程和业务走向
+                    按照企业所属的不同行业，精准匹配解决方案
                   </FeatureItem>
 
                   <FeatureItem img={images.FeatureP3} header="专业">
-                    流程管理, 组织变革, 业务监控, 审视优化 以及更多.
+                    提供行业内流程建模最佳实践，专业的顾问支持服务
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP4} header="架构">
-                    根据不同层级组织与流程架构，逐层下落，清晰展现关联流程和业务走向
+                  <FeatureItem img={images.FeatureP2} header="层级展现">
+                    按照不同层级的组织与架构，逐层下落，清晰展现关联流程和业务走向
+                  </FeatureItem>
+
+                  <FeatureItem img={images.FeatureP4} header="响应式">
+                    提供响应式的画图体验，让您的流程设计工作更高效
                   </FeatureItem>
 
                   <FeatureItem img={images.FeatureP5} header="国际化">
-                    支持中／英文，对国际化团队友好，快速入手对流程进行设计
+                    支持中／英文，对国际化团队友好
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP6} header="文档">
-                    我们提供全套的说明文档，帮助你和您的团队更快的上手开始设计
+                  <FeatureItem img={images.FeatureP6} header="手册">
+                    提供完善的操作手册，帮助您和您的团队快速上手
                   </FeatureItem>
 
                   <FeatureItem img={images.FeatureP7} header="导出">
-                    平台支持流程导出图片，同时也提供定制化接口，将流程直接导入您的BPM等系统中。
+                    支持将流程图导出为多种格式，满足您的各类需求
                   </FeatureItem>
 
-                  <FeatureItem img={images.FeatureP8} header="易用">
-                    用户体验是我们一贯的最求，开发出最简介易用的产品，更好的服务用户
+                  <FeatureItem img={images.FeatureP8} header="持续优化">
+                    平台会结合业内的最佳实践，定期进行升级和更新，帮助您站在业界的最前沿
                   </FeatureItem>
                 </FeatureItemList>
               </SectionContent>
@@ -148,11 +148,10 @@ export default class HomePage extends React.Component {
               <SectionBackground img={images.DownloadBg}/>
               <SectionContent>
                 <SectionContentHeader>跨平台</SectionContentHeader>
-                <SectionContentTitle>在您喜欢的平台上设计／审视您的流程</SectionContentTitle>
+                <SectionContentTitle>您可以在您喜爱的平台上开始流程管理工作</SectionContentTitle>
                 <DownloadItemList>
                   <DownloadItem img={images.DownloadP1} header="Windows"/>
                   <DownloadItem img={images.DownloadP2} header="macOS"/>
-                  <DownloadItem img={images.DownloadP3} header="Linux"/>
                   <DownloadItem img={images.DownloadP4} header="Browser"/>
                   <DownloadItem img={images.DownloadP5} header="Android*"/>
                   <DownloadItem img={images.DownloadP6} header="iPad*"/>
