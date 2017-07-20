@@ -1,5 +1,5 @@
 import PageBg from '../../../assets/background.png';
-import LogoImg from '../../../assets/logo-name.svg';
+import LogoImg from '../../../assets/logo.png';
 import ScreenShotBg from '../../../assets/hero-background.jpg';
 import DesignerBg from '../../../assets/create-background.jpg';
 import DesignerP1 from '../../../assets/create-screen@2x.png';
