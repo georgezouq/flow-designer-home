@@ -56,7 +56,7 @@ export default class HomePage extends React.Component {
     return (
         <IntroductionPageWrapper>
           <Helmet
-              title="Home Page"
+              title="EPROS - 流程管理与组织变革专家"
               meta={[
                 {name: 'description', content: '企业私有云-流程设计专家-主页'},
               ]}
