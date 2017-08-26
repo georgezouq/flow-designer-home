@@ -44,10 +44,10 @@ const Navigation = () => {
         </NavigationItemList>
         <NavigationItemList>
           <NavigationItem>
-            <a className="btn btn-primary" size="large">在线使用</a>
+            <a className="btn btn-primary" size="large" href="http://epros.tefact.com">在线使用</a>
           </NavigationItem>
           <NavigationItem>
-            <a className="btn btn-danger" size="large">下载企业版</a>
+            <a className="btn btn-danger" size="large" href="http://epros.tefact.com">下载企业版</a>
           </NavigationItem>
         </NavigationItemList>
       </NavigationWrapper>
