@@ -43,7 +43,7 @@ function ctmp() {
 
 function rmTmp() {
   return new Promise((resolve, reject) => {
-    exec('rm -rf boss/', (error, stdout) => {
+    exec('rm -rf tahiti/', (error, stdout) => {
       if (error) {
         global.console.log('<STEP 4> rm --- error:', error)
         reject(error)
